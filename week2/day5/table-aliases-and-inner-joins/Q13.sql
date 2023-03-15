@@ -1,3 +1,5 @@
+--Display travel card details based on condition using joins
+
 select tc.person_name, tc.contact_number, tc.balance 
 from travel_card tc 
 inner join travel_payment tp on tp.travel_card_id=tc.id 
